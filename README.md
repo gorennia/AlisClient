@@ -47,16 +47,6 @@ Windows application; the interface is available in **English and Russian**.
 | Ely.by        | Supported |
 | Offline       | Supported (for local / LAN play) |
 
-### How Microsoft sign-in works in AlisClient
-
-- Sign-in uses the **official Microsoft OAuth 2.0 flow** (authorization code with PKCE) in the system web browser.
-  The launcher never sees or stores the user's Microsoft password.
-- The token chain is the standard one: Microsoft account → Xbox Live → XSTS → Minecraft services, followed by an
-  entitlement check that the account **owns Minecraft: Java Edition**. Accounts without the game cannot play online.
-- Refresh tokens are stored **only on the user's computer**, in the operating system's secure credential store
-  (Windows Credential Manager). Nothing is sent to any server run by AlisClient — the launcher has no backend of its own.
-- Tokens are used only to sign in, launch the game and manage the player's own skin and profile.
-
 ## Privacy
 
 - No telemetry, no analytics, no accounts on our side.
