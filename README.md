@@ -43,7 +43,7 @@ Windows application; the interface is available in **English and Russian**.
 
 | Account type  | Status |
 | ------------- | ------ |
-| Microsoft     | In progress — waiting for Minecraft API access approval |
+| Microsoft     | Supported — licensed Minecraft: Java Edition, sign-in on Microsoft's own page |
 | Ely.by        | Supported |
 | Offline       | Supported (for local / LAN play) |
 
